@@ -24,11 +24,16 @@ func main() {
 	// }
 
 	/* Simple Array Sum */
-	arr := [6]int32{1, 2, 3, 4, 10, 11}
-	sum := simpleArraySum(arr)
-	fmt.Println(sum)
+	// arr := [6]int32{1, 2, 3, 4, 10, 11}
+	// sum := simpleArraySum(arr)
+	// fmt.Println(sum)
 
-	
+	// array triplet
+	a := []int32{17, 28, 30}
+	b := []int32{99, 16, 8}
+
+	resultArr := compareTriplet(a, b)
+	fmt.Println(resultArr)
 }
 
 
