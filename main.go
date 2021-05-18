@@ -29,11 +29,17 @@ func main() {
 	// fmt.Println(sum)
 
 	// array triplet
-	a := []int32{17, 28, 30}
-	b := []int32{99, 16, 8}
+	// a := []int32{17, 28, 30}
+	// b := []int32{99, 16, 8}
 
-	resultArr := compareTriplet(a, b)
-	fmt.Println(resultArr)
+	// very big sum
+
+	arr := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
+	sum := veryBigSum(arr);
+
+
+	// resultArr := compareTriplet(a, b)
+	fmt.Println(sum)
 }
 
 
