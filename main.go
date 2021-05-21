@@ -34,12 +34,20 @@ func main() {
 
 	// very big sum
 
-	arr := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
-	sum := veryBigSum(arr);
+	// arr := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
+	// sum := veryBigSum(arr);
 
 
 	// resultArr := compareTriplet(a, b)
-	fmt.Println(sum)
+	sqaure := [][]int32{
+		{11, 2, 4},
+		{4, 5, 6},
+		{10, 8, -12},
+	}
+
+	multiArr := diagonalDifferences(sqaure)
+
+	fmt.Println(multiArr)
 }
 
 
